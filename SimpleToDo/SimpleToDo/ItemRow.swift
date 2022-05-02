@@ -24,6 +24,7 @@ struct ItemRow: View {
                 .animation(nil, value: item)
         }
         .tag(item)
+        .accessibilityValue(item.accessibilityValue)
     }
 }
 
