@@ -57,7 +57,7 @@ struct ToDoItem: Codable, Identifiable, Hashable {
             case .low:
                 return "low priority"
             case .medium:
-                return "medium priority"
+                return "" // To prevent verbosity, don't set a specific value for the default priority.
             case .high:
                 return "high priority"
             }
