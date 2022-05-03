@@ -49,7 +49,7 @@ If you would like to contribute, please keep these things in mind:
 
 - The goal isn’t to pack each app with features, in fact the more code we remove the better. This means we don’t need to make every list searchable, for example – there will be a project just for that topic.
 - If there is no option but to use a workaround, e.g. for something SwiftUI doesn’t support yet, then go for it! This are real-world projects, and these projects need to reflect that. 
-- If you modify code, please make sure it is thoroughly documented so that someone reading the project can understood it. This is doubly important for any workarounds.
+- If you modify code, please make sure it is thoroughly documented so that someone reading the project can understand it. This is doubly important for any workarounds.
 - If you contribute code or other assets, please make sure it’s something you wrote yourself, and that you are happy to license it under the MIT license so that others can use it freely.
 
 Above all, please keep your code as simple as possible – if you can avoid more advanced features like generics and protocol extensions, please do.
