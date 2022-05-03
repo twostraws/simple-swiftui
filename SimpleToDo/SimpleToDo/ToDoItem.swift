@@ -48,6 +48,22 @@ struct ToDoItem: Codable, Identifiable, Hashable {
         }
     }
 
+    /// The value of the item, to convey this information to assistive technologies.
+    var accessibilityValue: String {
+        if isComplete {
+            return "completed"
+        } else {
+            switch priority {
+            case .low:
+                return "low priority"
+            case .medium:
+                return "" // To prevent verbosity, don't set a specific value for the default priority.
+            case .high:
+                return "high priority"
+            }
+        }
+    }
+
     /// An example property that's used for Xcode previewing.
     static let example = ToDoItem()
 }
