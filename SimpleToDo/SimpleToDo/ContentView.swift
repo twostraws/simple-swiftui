@@ -30,7 +30,10 @@ struct ContentView: View {
         }
         .navigationTitle("SimpleToDo")
         .toolbar {
-            ToolbarItem(placement: .navigationBarLeading, content: EditButton.init)
+            ToolbarItem(placement: .navigationBarLeading) {
+                EditButton()
+                    .disabled(model.items.isEmpty)
+            }
 
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: model.add) {
@@ -48,6 +51,7 @@ struct ContentView: View {
                         Button(role: .destructive) {
                             model.delete(selectedItems)
                             selectedItems.removeAll()
+                            editMode = .inactive
                         } label: {
                             Label("Delete selected", systemImage: "trash")
                         }
