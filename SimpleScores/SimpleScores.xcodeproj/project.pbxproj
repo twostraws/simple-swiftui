@@ -17,6 +17,7 @@
 		510F435E281DA3220060A05A /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F435C281DA3220060A05A /* FileManager-DocumentsDirectory.swift */; };
 		510F435F281DA3220060A05A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F435D281DA3220060A05A /* ViewModel.swift */; };
 		510F4361281DA3C60060A05A /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F4360281DA3C60060A05A /* ScoreRow.swift */; };
+		AD975CE128253CE10042EAE4 /* Score+Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD975CE028253CE10042EAE4 /* Score+Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		510F435C281DA3220060A05A /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 		510F435D281DA3220060A05A /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		510F4360281DA3C60060A05A /* ScoreRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreRow.swift; sourceTree = "<group>"; };
+		AD975CE028253CE10042EAE4 /* Score+Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Score+Preview.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				510F4351281DA1720060A05A /* Preview Assets.xcassets */,
+				AD975CE028253CE10042EAE4 /* Score+Preview.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 				510F435B281DA2C00060A05A /* Score.swift in Sources */,
 				510F435F281DA3220060A05A /* ViewModel.swift in Sources */,
 				510F434B281DA1710060A05A /* SimpleScoresApp.swift in Sources */,
+				AD975CE128253CE10042EAE4 /* Score+Preview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
