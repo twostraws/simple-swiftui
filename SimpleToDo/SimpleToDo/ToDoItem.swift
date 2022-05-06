@@ -63,7 +63,4 @@ struct ToDoItem: Codable, Identifiable, Hashable {
             }
         }
     }
-
-    /// An example property that's used for Xcode previewing.
-    static let example = ToDoItem()
 }

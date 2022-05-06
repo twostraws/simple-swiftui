@@ -25,7 +25,4 @@ struct Score: Codable, Identifiable, Hashable {
     /// The named color to use for this player's background.
     /// See ColorChoice.swift and the asset catalog for more information.
     var color = ColorChoice.blue
-
-    /// An example property that's used for Xcode previewing.
-    static let example = Score()
 }
