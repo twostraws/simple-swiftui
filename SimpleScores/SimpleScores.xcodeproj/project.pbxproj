@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41824A5A2825181C003B351B /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41824A592825181C003B351B /* ViewModelTests.swift */; };
 		510F434B281DA1710060A05A /* SimpleScoresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F434A281DA1710060A05A /* SimpleScoresApp.swift */; };
 		510F434D281DA1710060A05A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F434C281DA1710060A05A /* ContentView.swift */; };
 		510F434F281DA1720060A05A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 510F434E281DA1720060A05A /* Assets.xcassets */; };
@@ -18,7 +19,19 @@
 		510F4361281DA3C60060A05A /* ScoreRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510F4360281DA3C60060A05A /* ScoreRow.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		41824A542825170A003B351B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 510F433F281DA1710060A05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 510F4346281DA1710060A05A;
+			remoteInfo = SimpleScores;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		41824A502825170A003B351B /* SimpleScoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleScoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41824A592825181C003B351B /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 		510F4347281DA1710060A05A /* SimpleScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		510F434A281DA1710060A05A /* SimpleScoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleScoresApp.swift; sourceTree = "<group>"; };
 		510F434C281DA1710060A05A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +45,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		41824A4D2825170A003B351B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		510F4344281DA1710060A05A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -42,10 +62,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41824A512825170A003B351B /* SimpleScoresTests */ = {
+			isa = PBXGroup;
+			children = (
+				41824A592825181C003B351B /* ViewModelTests.swift */,
+			);
+			path = SimpleScoresTests;
+			sourceTree = "<group>";
+		};
 		510F433E281DA1710060A05A = {
 			isa = PBXGroup;
 			children = (
 				510F4349281DA1710060A05A /* SimpleScores */,
+				41824A512825170A003B351B /* SimpleScoresTests */,
 				510F4348281DA1710060A05A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				510F4347281DA1710060A05A /* SimpleScores.app */,
+				41824A502825170A003B351B /* SimpleScoresTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -85,6 +115,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		41824A4F2825170A003B351B /* SimpleScoresTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41824A582825170A003B351B /* Build configuration list for PBXNativeTarget "SimpleScoresTests" */;
+			buildPhases = (
+				41824A4C2825170A003B351B /* Sources */,
+				41824A4D2825170A003B351B /* Frameworks */,
+				41824A4E2825170A003B351B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41824A552825170A003B351B /* PBXTargetDependency */,
+			);
+			name = SimpleScoresTests;
+			productName = SimpleScoresTests;
+			productReference = 41824A502825170A003B351B /* SimpleScoresTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		510F4346281DA1710060A05A /* SimpleScores */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 510F4355281DA1720060A05A /* Build configuration list for PBXNativeTarget "SimpleScores" */;
@@ -110,9 +158,13 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					41824A4F2825170A003B351B = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 510F4346281DA1710060A05A;
+					};
 					510F4346281DA1710060A05A = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -132,11 +184,19 @@
 			projectRoot = "";
 			targets = (
 				510F4346281DA1710060A05A /* SimpleScores */,
+				41824A4F2825170A003B351B /* SimpleScoresTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		41824A4E2825170A003B351B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		510F4345281DA1710060A05A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -170,6 +230,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		41824A4C2825170A003B351B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41824A5A2825181C003B351B /* ViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		510F4343281DA1710060A05A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -186,7 +254,53 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		41824A552825170A003B351B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 510F4346281DA1710060A05A /* SimpleScores */;
+			targetProxy = 41824A542825170A003B351B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		41824A562825170A003B351B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.SimpleScoresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleScores.app/SimpleScores";
+			};
+			name = Debug;
+		};
+		41824A572825170A003B351B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hackingwithswift.SimpleScoresTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleScores.app/SimpleScores";
+			};
+			name = Release;
+		};
 		510F4353281DA1720060A05A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -237,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -291,7 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -362,6 +476,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		41824A582825170A003B351B /* Build configuration list for PBXNativeTarget "SimpleScoresTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41824A562825170A003B351B /* Debug */,
+				41824A572825170A003B351B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		510F4342281DA1710060A05A /* Build configuration list for PBXProject "SimpleScores" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
