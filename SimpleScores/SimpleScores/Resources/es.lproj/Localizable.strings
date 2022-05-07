@@ -1,0 +1,36 @@
+/* No comment provided by engineer. */
+"Activate to rename this player." = "Activa para cambiar el nombre de este jugador";
+
+/* No comment provided by engineer. */
+"Add Player" = "Agregar jugador";
+
+/* No comment provided by engineer. */
+"Cancel" = "Cancelar";
+
+/* (No Comment) */
+"CFBundleDisplayName" = "SimpleScores";
+
+/* No comment provided by engineer. */
+"Delete" = "Eliminar";
+
+/* No comment provided by engineer. */
+"Delete all players?" = "Eliminar todos los jugadores";
+
+/* Default New Player Name */
+"New Player" = "Nuevo jugador";
+
+/* No comment provided by engineer. */
+"Player name" = "Nombre del jugador";
+
+/* No comment provided by engineer. */
+"Remove All" = "Eliminar todo";
+
+/* No comment provided by engineer. */
+"Reset Scores to 0" = "Restablecer puntuación a 0";
+
+/* No comment provided by engineer. */
+"SimpleScores" = "PuntosSimples";
+
+/* No comment provided by engineer. */
+"This will immediately remove all players and their scores." = "Esto eliminará inmediatamente a todos los jugadores y sus puntajes.";
+

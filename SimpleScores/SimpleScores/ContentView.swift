@@ -29,6 +29,7 @@ struct ContentView: View {
             Button(action: model.add) {
                 Label("Add Player", systemImage: "plus")
                     .font(.title.bold())
+                    .foregroundColor(.primary)
                     .frame(maxWidth: .infinity, minHeight: 44)
                     .contentShape(Rectangle())
             }
@@ -67,6 +68,15 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(model: ViewModel())
+        Group {
+            NavigationView {
+                ContentView(model: ViewModel())
+            }
+            NavigationView {
+                ContentView(model: ViewModel())
+            }
+            .preferredColorScheme(.dark)
+            .environment(\.locale, Locale(identifier: "es"))
+        }
     }
 }

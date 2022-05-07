@@ -17,7 +17,7 @@ struct Score: Codable, Identifiable, Hashable {
     var id = UUID()
 
     /// The name of the player this score is attached to.
-    var playerName = "New Player"
+    var playerName = String(localized: "New Player", comment: "Default New Player Name")
 
     /// The player's current score.
     var score = 0

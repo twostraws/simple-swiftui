@@ -70,6 +70,11 @@ struct ScoreRow: View {
 
 struct ScoreRow_Previews: PreviewProvider {
     static var previews: some View {
-        ScoreRow(item: .constant(.example))
+        Group {
+            ScoreRow(item: .constant(.example))
+            ScoreRow(item: .constant(.example))
+                .preferredColorScheme(.dark)
+                .environment(\.locale, Locale(identifier: "es"))
+        }
     }
 }
