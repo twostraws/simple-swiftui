@@ -27,6 +27,8 @@ struct ScoreRow: View {
                     .frame(minWidth: 44, minHeight: 44)
                     .contentShape(Rectangle())
             }
+            // if you want player score to able have minus score delete the line below
+            .disabled(item.score <= 0)
 
             // Make the player name expand to fill available horizontal space.
             TextField("Player name", text: $item.playerName)
@@ -53,6 +55,7 @@ struct ScoreRow: View {
         .background(Color(item.color.rawValue))
         .listRowSeparator(.hidden)
         .listRowInsets(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+        .cornerRadius(10)
         .accessibilityElement() // Make the whole row selectable as one
         .accessibilityLabel(item.playerName)
         .accessibilityValue(String(item.score))
