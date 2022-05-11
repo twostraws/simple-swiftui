@@ -1,0 +1,18 @@
+"CFBundleDisplayName" = "Punktezähler";
+
+"SimpleScores" = "Punktestand";
+
+"Cancel" = "Abbrechen";
+"Delete" = "Löschen";
+
+"New Player" = "Neuer Spieler";
+"Add Player" = "Spieler hinzufügen";
+
+"Player name" = "Spielername";
+"Activate to rename this player." = "Aktivieren, um diesen Spieler umzubenennen.";
+
+"Remove All" = "Alle löschen";
+"Delete all players?" = "Alle Spieler löschen?";
+"This will immediately remove all players and their scores." = "Dadurch werden sofort alle Spieler und ihre Punkte entfernt.";
+
+"Reset Scores to 0" = "Punktestand auf 0 zurücksetzen";

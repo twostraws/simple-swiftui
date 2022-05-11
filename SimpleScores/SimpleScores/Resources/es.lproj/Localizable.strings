@@ -1,3 +1,6 @@
+/* (No Comment) */
+"CFBundleDisplayName" = "SimpleScores";
+
 /* No comment provided by engineer. */
 "Activate to rename this player." = "Activa para cambiar el nombre de este jugador";
 
@@ -6,9 +9,6 @@
 
 /* No comment provided by engineer. */
 "Cancel" = "Cancelar";
-
-/* (No Comment) */
-"CFBundleDisplayName" = "SimpleScores";
 
 /* No comment provided by engineer. */
 "Delete" = "Eliminar";
