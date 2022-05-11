@@ -1,36 +1,36 @@
 /* No comment provided by engineer. */
-"Activate to rename this player." = "Activate to rename this player.";
+"Activate to rename this player." = "Activeer om deze speler te hernoemen";
 
 /* No comment provided by engineer. */
-"Add Player" = "Add Player";
+"Add Player" = "Voeg speler toe";
 
 /* No comment provided by engineer. */
-"Cancel" = "Cancel";
+"Cancel" = "Annuleren";
 
 /* (No Comment) */
 "CFBundleDisplayName" = "SimpleScores";
 
 /* No comment provided by engineer. */
-"Delete" = "Delete";
+"Delete" = "Verwijderen";
 
 /* No comment provided by engineer. */
-"Delete all players?" = "Delete all players?";
+"Delete all players?" = "Alle spelers verwijderen?";
 
 /* Default New Player Name */
-"New Player" = "New Player";
+"New Player" = "Nieuwe speler";
 
 /* No comment provided by engineer. */
-"Player name" = "Player name";
+"Player name" = "Spelernaam";
 
 /* No comment provided by engineer. */
-"Remove All" = "Remove All";
+"Remove All" = "Verwijder alles";
 
 /* No comment provided by engineer. */
-"Reset Scores to 0" = "Reset Scores to 0";
+"Reset Scores to 0" = "Reset scores naar 0";
 
 /* No comment provided by engineer. */
 "SimpleScores" = "SimpleScores";
 
 /* No comment provided by engineer. */
-"This will immediately remove all players and their scores." = "This will immediately remove all players and their scores.";
+"This will immediately remove all players and their scores." = "Dit zal onmiddelijk alle spelers en hun scores verwijderen.";
 
