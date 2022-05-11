@@ -53,6 +53,7 @@ struct ScoreRow: View {
         .background(Color(item.color.rawValue))
         .listRowSeparator(.hidden)
         .listRowInsets(EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+        .cornerRadius(10)
         .accessibilityElement() // Make the whole row selectable as one
         .accessibilityLabel(item.playerName)
         .accessibilityValue(String(item.score))
