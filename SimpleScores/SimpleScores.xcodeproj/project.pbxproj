@@ -44,6 +44,8 @@
 /* Begin PBXFileReference section */
 		41824A502825170A003B351B /* SimpleScoresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleScoresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41824A592825181C003B351B /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		4C5F20AF282D02D900326806 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4C5F20B0282D032B00326806 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = "de.lproj/SimpleScores-InfoPlist.strings"; sourceTree = "<group>"; };
 		510F4347281DA1710060A05A /* SimpleScores.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleScores.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		510F434A281DA1710060A05A /* SimpleScoresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleScoresApp.swift; sourceTree = "<group>"; };
 		510F434C281DA1710060A05A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				es,
 				nl,
 				Base,
+				de,
 			);
 			mainGroup = 510F433E281DA1710060A05A;
 			productRefGroup = 510F4348281DA1710060A05A /* Products */;
@@ -367,6 +370,7 @@
 				ADE884F1282572E10092372D /* en */,
 				ADE884F3282573AE0092372D /* es */,
 				840459C02828F1C9001A5AE8 /* nl */,
+				4C5F20AF282D02D900326806 /* de */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -375,6 +379,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				ADE884F8282578FE0092372D /* es */,
+				4C5F20B0282D032B00326806 /* de */,
 			);
 			name = "SimpleScores-InfoPlist.strings";
 			sourceTree = "<group>";
