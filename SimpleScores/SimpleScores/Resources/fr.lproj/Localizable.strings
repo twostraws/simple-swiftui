@@ -8,7 +8,7 @@
 "Cancel" = "Annuler";
 
 /* (No Comment) */
-"CFBundleDisplayName" = "ScoresSimple";
+"CFBundleDisplayName" = "SimpleScores";
 
 /* No comment provided by engineer. */
 "Delete" = "Supprimer";
@@ -29,7 +29,7 @@
 "Reset Scores to 0" = "Réinitialiser le Score à 0";
 
 /* No comment provided by engineer. */
-"SimpleScores" = "ScoresSimple";
+"SimpleScores" = "SimpleScores";
 
 /* No comment provided by engineer. */
 "This will immediately remove all players and their scores." = "Cela supprimera immédiatement tous les joueurs et leurs scores.";
