@@ -64,6 +64,8 @@
 		ADE884F1282572E10092372D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADE884F3282573AE0092372D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADE884F8282578FE0092372D /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = "es.lproj/SimpleScores-InfoPlist.strings"; sourceTree = "<group>"; };
+		CB68721F283171A000973DF0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CB6872202831730A00973DF0 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/SimpleScores-InfoPlist.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 				nl,
 				Base,
 				de,
+				fr,
 			);
 			mainGroup = 510F433E281DA1710060A05A;
 			productRefGroup = 510F4348281DA1710060A05A /* Products */;
@@ -371,6 +374,7 @@
 				ADE884F3282573AE0092372D /* es */,
 				840459C02828F1C9001A5AE8 /* nl */,
 				4C5F20AF282D02D900326806 /* de */,
+				CB68721F283171A000973DF0 /* fr */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -380,6 +384,7 @@
 			children = (
 				ADE884F8282578FE0092372D /* es */,
 				4C5F20B0282D032B00326806 /* de */,
+				CB6872202831730A00973DF0 /* fr */,
 			);
 			name = "SimpleScores-InfoPlist.strings";
 			sourceTree = "<group>";
