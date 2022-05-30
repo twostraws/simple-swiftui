@@ -1,6 +1,6 @@
 
 <p align="center">
-    <img src="https://www.hackingwithswift.com/files/simple-swiftui/logo.png" alt="Simple SwiftUI logo" width="493" maxHeight="71" />
+    <img src="https://www.hackingwithswift.com/files/simple-swiftui/logo.png" alt="Simple SwiftUI logo" width="648" maxHeight="156" />
 </p>
 
 <p align="center">
@@ -18,8 +18,9 @@ Simple SwiftUI is a small but growing collection of iOS projects designed to pro
 
 Each project in Simple SwiftUI is designed to stand alone as an example solution to a common starter project. This means they don’t have special frills, weird hacks, “clever code”, or similar – they are designed to get one specific job done, rather than demonstrate every possible SwiftUI view and modifier in a single project.
 
-Right now there are just two projects available, but more will be added soon:
+Right now there are just three projects available, but more will be added soon:
 
+- [SimpleNews](SimpleNews) is a news reader
 - [SimpleToDo](SimpleToDo) is a to do list editor
 - [SimpleScores](SimpleScores) is a score tracker
 
