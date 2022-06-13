@@ -40,6 +40,8 @@ struct ContentView: View {
                 }
             case .success:
                 List(filteredArticles, rowContent: ArticleRow.init)
+					.refreshable(action: downloadArticles)
+					.searchable(text: $searchText)
             case .failed:
                 VStack {
                     Text("Failed to download articles")
@@ -63,8 +65,6 @@ struct ContentView: View {
         }
         .navigationTitle("SimpleNews")
         .task(downloadArticles)
-        .refreshable(action: downloadArticles)
-        .searchable(text: $searchText)
     }
 
     /// Filters the articles array based on the user's search criteria.
