@@ -18,7 +18,7 @@ Things to watch out for:
 
 ## Credits
 
-SimpleScores was made by [Paul Hudson](https://twitter.com/twostraws) as part of the [Simple SwiftUI](https://github.com/twostraws/simple-swiftui) project. It’s available under the MIT license, which permits commercial use, modification, distribution, and private use.
+SimpleNews was made by [Paul Hudson](https://twitter.com/twostraws) as part of the [Simple SwiftUI](https://github.com/twostraws/simple-swiftui) project. It’s available under the MIT license, which permits commercial use, modification, distribution, and private use.
 
 **Important:** The news API used in this project draws upon the Guardian API, and you will see warnings in the returned text reminding you of this. The Hacking with Swift server API is available only for learning purposes, and you should not attempt to ship any commercial products using it, use it in production, or indeed use it in anything you consider important because the API might go away at any point in the future and without warning.
 
