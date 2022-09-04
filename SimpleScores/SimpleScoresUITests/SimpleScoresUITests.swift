@@ -13,6 +13,7 @@ class SimpleScoresUITests: XCTestCase {
         continueAfterFailure = false
 
         app = XCUIApplication()
+        app.launchArguments = ["clearAll"]
         app.launch()
     }
 
@@ -40,6 +41,12 @@ class SimpleScoresUITests: XCTestCase {
         // Action - Tap remove all button and confirm alert
         app.buttons["Remove All"].tap()
         app.alerts.buttons["Delete"].tap()
+
+        // Wait up to 2 seconds for delete to complete and update the UI
+        // The cell "Add Player" is always there so count should be 1 after all players are deleted
+        let countIsOne = NSPredicate(format: "count == 1")
+        expectation(for: countIsOne, evaluatedWith: app.tables.cells, handler: nil)
+        waitForExpectations(timeout: 2, handler: nil)
 
         // Assert - Get the updated amount of player.
         // The cell "Add Player" is always there so subtract 1

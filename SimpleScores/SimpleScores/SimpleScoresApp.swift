@@ -35,6 +35,11 @@ struct SimpleScoresApp: App {
             if phase == .background {
                 model.save()
             }
+
+            // Clear model data when running UI tests
+            if phase == .active && ProcessInfo.processInfo.arguments.contains("clearAll") {
+                model.deleteAll()
+            }
         }
     }
 }
