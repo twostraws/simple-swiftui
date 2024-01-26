@@ -8,7 +8,7 @@
 import Foundation
 
 /// One article in our downloaded data.
-struct Article: Decodable, Identifiable, Comparable {
+struct Article: Decodable, Identifiable, Comparable, Hashable {
     /// The unique identifier string.
     let id: String
 

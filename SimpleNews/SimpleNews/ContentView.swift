@@ -39,9 +39,18 @@ struct ContentView: View {
                     ProgressView()
                 }
             case .success:
-                List(filteredArticles, rowContent: ArticleRow.init)
-					.refreshable(action: downloadArticles)
-					.searchable(text: $searchText)
+                List(filteredArticles) { article in
+                    NavigationLink(value: article) {
+                        // Returns the view for each row or cell
+                        ArticleRow(article: article)
+                    }
+                }
+                .refreshable(action: downloadArticles)
+                .searchable(text: $searchText)
+                .navigationDestination(for: Article.self) { article in
+                    // Returns the detail view which should be shown when a row is tapped
+                    ReadingView(article: article)
+                }
             case .failed:
                 VStack {
                     Text("Failed to download articles")
