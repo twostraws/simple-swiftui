@@ -25,6 +25,7 @@ struct ItemRow: View {
         }
         .tag(item)
         .accessibilityValue(item.accessibilityValue)
+        .foregroundStyle(.blue)
     }
 }
 
